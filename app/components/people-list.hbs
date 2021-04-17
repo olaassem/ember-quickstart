@@ -1,0 +1,9 @@
+{{!-- The @ indicates that @title is an argument that will be passed into the component, which makes it easier to reuse the same component in other parts of the app we are building. --}}
+
+<h2>{{@title}}</h2>
+
+<ul>
+  {{#each @people as |person|}}
+    <li>{{person}}</li>
+  {{/each}}
+</ul>
